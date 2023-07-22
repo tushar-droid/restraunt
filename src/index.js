@@ -1,1 +1,3 @@
-alert('Hey this is also index.js')
+import './style.css';
+
+
