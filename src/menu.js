@@ -1,7 +1,6 @@
 export default function menuPage(){
     const menu_container = document.createElement('div');
     menu_container.classList.add('menu-container')
-
     const card1 = cardFactory('Spicy Szechuan Stir-Fry', `Fiery Spicy Szechuan Stir-Fry: Explosive chili, savory meat, and vibrant veggies dance in harmony. A taste adventure you won't forget!`, 20);
     menu_container.appendChild(card1.createItemCard());
     const card2 = cardFactory('Savory Garlic Butter Shrimp', `Delight in plump shrimp bathed in a luscious garlic butter sauce. Each bite bursts with leaving you craving the perfect harmony of seafood.`, 30);

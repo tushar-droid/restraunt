@@ -23,7 +23,8 @@ const servePage = (() =>{
         container.appendChild( menuPage());
     })
     about_btn.addEventListener('click', ()=>{
-        aboutPage();
+        container.innerHTML = '';
+        container.appendChild(aboutPage());
     })
     
 
