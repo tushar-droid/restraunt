@@ -20,7 +20,6 @@ function setLeftContainer(left_container){
     `Welcome to Crown & Cuisines, an enchanting culinary destination where extraordinary flavors reign and genuine hospitality awaits. Immerse yourself in the art of gastronomy as our talented chefs meticulously curate a diverse menu that caters to every palate.
 
     At Crown & Cuisines, we believe in celebrating the rich tapestry of global cuisines, infusing each dish with a touch of regal sophistication. From delectable classics to innovative fusions, our culinary offerings promise to tantalize your taste buds and leave you craving for more.
-
 `
 }   
 
