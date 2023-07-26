@@ -12,12 +12,15 @@ const servePage = (() =>{
     const home_btn = document.querySelector('.home-btn');
     const menu_btn = document.querySelector('.menu-btn');
     const about_btn = document.querySelector('.about-btn');
+    container.appendChild( homePage());
 
     home_btn.addEventListener('click', ()=>{
-        homePage();
+        container.innerHTML = '';
+        container.appendChild( homePage());
     })
     menu_btn.addEventListener('click', ()=>{
-        menuPage();
+        container.innerHTML = '';
+        container.appendChild( menuPage());
     })
     about_btn.addEventListener('click', ()=>{
         aboutPage();
